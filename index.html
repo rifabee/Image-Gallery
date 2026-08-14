@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+<h1>Image gallery</h1>
+<p>Nature, Animals and Fruits Gallery</p>
+  </header>
+
+ <div class="filters">
+   <button class="filter-btn active" data-filter="all">All</button>
+   <button class="filter-btn" data-filter="nature">Nature</button>
+   <button class="filter-btn" data-filter="animals">Animals</button>
+   <button class="filter-btn" data-filter="fruits">Fruits</button>  
+</div>
+
+ <section class="gallery">
+    <div class="gallery-item nature">
+        <img src="img1.jpg" alt="Nature 1">
+    </div>
+        <div class="gallery-item nature">
+        <img src="img2.jpg" alt="Nature 2">
+    </div>
+        <div class="gallery-item nature"> 
+        <img src="img3.jpg" alt="Nature 3">
+    </div>
+        <div class="gallery-item animals">
+        <img src="img4.jpg" alt="Animals 1">
+    </div>
+        <div class="gallery-item animals">
+        <img src="img5.jpg" alt="Animals 2">
+    </div>
+        <div class="gallery-item animals"> 
+        <img src="img6.jpg" alt="Animals 3">
+    </div>
+        <div class="gallery-item fruits">
+        <img src="img7.jpg" alt="Fruits 1">
+    </div>
+        <div class="gallery-item fruits">
+        <img src="img8.jpg" alt="Fruits 2">
+    </div>
+        <div class="gallery-item fruits"> 
+        <img src="img9.jpg" alt="Fruits 3">
+</div>
+ </section>
+
+ <div class="lightbox">
+    <span class="close">&times;</span>
+    <button class="prev">></button>
+    <img class="lightbox-img" src="" alt="">
+        <button class="next"><</button>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
